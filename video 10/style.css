@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    margin: 0;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #e91e63;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-size: 38px;
+    border-bottom: 3px solid #e91e63;
+    padding-bottom: 12px;
+}
+
+video {
+    border: 3px solid #ff6b9d;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+video:hover {
+    transform: scale(1.03);
+    /* video এর উপর mouse নিলে size 3% বড় হবে */
+}
+
+iframe {
+    border: 3px solid #ff6b9d;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+audio {
+    margin: 20px 0;
+    width: 350px;
+}
+
+div {
+    margin-bottom: 35px;
+}

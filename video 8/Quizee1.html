@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form......</title>
+</head>
+<body>
+    <h1>Fill up the form below...</h1>
+    <form action="post">
+        <div>
+            <label for="name">Enter your name :</label>
+            <input type="text" id = "name" name = "name" placeholder="Enter your name here">
+        </div>
+        <div>
+            <label for="city">Select your city:</label>
+            <select name="city" id="city">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chittagong">Chittagong</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rangpur">Rangpur</option>
+            </select>
+        </div>
+        <div>
+            <label for="password">Enter your password: </label>
+            <type="text"
+            inputmode="numeric"
+            pattern="[0-9]{6}"
+            maxlength="6"
+            placeholder="Enter 6 digit pincode">
+        </div>
+    </form>
+</body>
+</html>

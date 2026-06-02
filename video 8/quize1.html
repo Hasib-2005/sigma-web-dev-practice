@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize - 1</title>
+</head>
+<body>
+    <form action="post">
+        <div>
+        <label for="username">Enter your username : </label>
+        <input id="username" type="text" placeholder="Enter your username">
+    </div>
+
+    <div>
+        <label for="city">Choose your city : </label>
+        <select name="city" id="city">
+            <option value="dhaka">Dhaka</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="rajshahi">Rajshahi</option>
+        </select>
+    </div>
+    <div>
+        <label for="pincode">Enter your pincode : </label>
+        <input
+            type="text"
+            inputmode="numeric"
+            pattern="[0-9]{6}"
+            maxlength="6"
+            placeholder="Enter 6 digit pincode"
+        >
+
+    </div>
+    </form>
+</body>
+</html>
